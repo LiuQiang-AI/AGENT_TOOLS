@@ -1,0 +1,19 @@
+{
+  "name": "your-tool-name",
+  "version": "0.1.0",
+  "type": "tool",
+  "description": "工具描述",
+  "author": "作者",
+  "email": "email@example.com",
+  "date": "2026-01-01",
+  "tags": [
+    "tag1",
+    "tag2"
+  ],
+  "dependencies": [],
+  "python_version": ">=3.8",
+  "files": [
+    "main.py"
+  ],
+  "readme": "README.md"
+}

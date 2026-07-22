@@ -1,0 +1,26 @@
+{
+  "name": "nz06_robot_control",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "NZ06 机器人控制工具，支持 Git/SVN 源码管理、Web UI 启动、串口通信、关节控制、序列执行等功能",
+  "author": "LiuQiang",
+  "email": "liuqiang@qevos.com",
+  "date": "2026-07-15",
+  "tags": [
+    "robot",
+    "NZ06",
+    "串口",
+    "控制",
+    "Git",
+    "SVN"
+  ],
+  "dependencies": [
+    "pyserial"
+  ],
+  "python_version": ">=3.10",
+  "files": [
+    "nz06_robot_control.py",
+    "README.md"
+  ],
+  "readme": "README.md"
+}

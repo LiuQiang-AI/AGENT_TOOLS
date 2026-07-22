@@ -1,0 +1,19 @@
+{
+  "name": "python-best-practices",
+  "version": "1.0.0",
+  "type": "skill",
+  "description": "Python 编程最佳实践指南，涵盖代码规范、性能优化、并发编程、错误处理等",
+  "author": "LiuQiang",
+  "email": "liuqiang@qevos.com",
+  "date": "2026-07-15",
+  "tags": [
+    "python",
+    "best-practices",
+    "编程规范",
+    "性能优化"
+  ],
+  "files": [
+    "skill.md"
+  ],
+  "readme": "README.md"
+}

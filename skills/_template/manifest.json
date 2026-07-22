@@ -1,0 +1,16 @@
+{
+  "name": "your-skill-name",
+  "version": "0.1.0",
+  "type": "skill",
+  "description": "技巧描述",
+  "author": "作者",
+  "email": "email@example.com",
+  "date": "2026-01-01",
+  "tags": [
+    "tag1"
+  ],
+  "files": [
+    "skill.md"
+  ],
+  "readme": "README.md"
+}

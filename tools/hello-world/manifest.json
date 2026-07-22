@@ -1,0 +1,21 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "type": "tool",
+  "description": "Hello World 示例工具，演示 Agent 工具的基本结构和使用方法",
+  "author": "LiuQiang",
+  "email": "liuqiang@qevos.com",
+  "date": "2026-07-15",
+  "tags": [
+    "example",
+    "hello-world",
+    "入门"
+  ],
+  "dependencies": [],
+  "python_version": ">=3.8",
+  "files": [
+    "hello_world.py",
+    "README.md"
+  ],
+  "readme": "README.md"
+}
