@@ -260,9 +260,16 @@ function base64ToUtf8(base64) {
   return new TextDecoder('utf-8').decode(bytes);
 }
 
-// 获取文件内容（解码 base64）
+// 获取文件内容（使用 download_url 直接获取原始 UTF-8 文本）
 async function getFileContent(path) {
   const data = await githubGet(path);
+  if (data.download_url) {
+    const resp = await fetch(data.download_url);
+    if (resp.ok) {
+      return resp.text();
+    }
+  }
+  // 回退：如果 download_url 不可用，尝试 base64 解码
   if (data.content) {
     return base64ToUtf8(data.content);
   }
