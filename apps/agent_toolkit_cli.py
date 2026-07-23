@@ -18,7 +18,7 @@ from pathlib import Path
 from datetime import datetime
 
 GITHUB_API = "https://api.github.com"
-TOKEN = "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"
+TOKEN = os.environ.get('GITHUB_TOKEN', '')  # 设置环境变量 GITHUB_TOKEN
 REPO = "LiuQiang-AI/AGENT_TOOLS"
 BRANCH = "main"
 TOOLKIT_DIR = Path(os.environ.get('APPDATA', str(Path.home()))) / '.qevos' / 'toolkit'
